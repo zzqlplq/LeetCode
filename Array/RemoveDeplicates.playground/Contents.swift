@@ -5,7 +5,7 @@ var str = "Hello, playground"
 
 func removeDuplicates(_ nums: inout [Int]) -> Int {
     
-    guard nums.isEmpty else {
+    guard !nums.isEmpty else {
         return nums.count
     }
     let count = nums.count
